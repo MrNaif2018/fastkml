@@ -56,7 +56,7 @@ setup(
     cmdclass={"test": PyTest},
     install_requires=[
         # -*- Extra requirements: -*-
-        "pygeoif<1.0",
+        "pygeoif>=1.0",
         "python-dateutil",
     ],
     entry_points="""
